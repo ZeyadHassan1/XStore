@@ -68,7 +68,7 @@ class HomeScreen extends StatelessWidget {
               padding: const EdgeInsets.all(XSizes.defaultSpace),
               child: Column(
                 children: [
-                  XPromoSlider(
+                  const XPromoSlider(
                     banners: [
                       XImages.clothes,
                       XImages.space,
