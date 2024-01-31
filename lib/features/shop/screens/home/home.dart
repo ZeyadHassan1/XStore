@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            XPrimaryHeaderContainer(
+            const XPrimaryHeaderContainer(
               child: Column(
                 children: [
                   // AppBar
