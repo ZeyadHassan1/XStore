@@ -82,9 +82,9 @@ class HomeScreen extends StatelessWidget {
                     gridDelegate:
                         const SliverGridDelegateWithFixedCrossAxisCount(
                             crossAxisCount: 2),
-                    itemBuilder: (context, int) => XProductCardVertical(),
+                    itemBuilder: (context, int) => const XProductCardVertical(),
                   ),
-                  XProductCardVertical(),
+                  const XProductCardVertical(),
                   Text(""),
                 ],
               ),
