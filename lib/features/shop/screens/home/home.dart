@@ -75,7 +75,7 @@ class HomeScreen extends StatelessWidget {
                       XImages.space1,
                     ],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: XSizes.spaceBtwSections,
                   ),
                   GridView.builder(
